@@ -1,6 +1,6 @@
 # Breast Cancer Diagnosis Prediction Using Machine Learning
 
-**ECH6845 – Chemical Process Data Science**  
+**Nipuni Dehigampala - ECH6845 – Chemical Process Data Science**  
 **University of Florida | Final Project**
 
 ## 1. Project Overview
