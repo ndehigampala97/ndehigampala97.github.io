@@ -113,16 +113,28 @@ Future work could explore repeated cross-validation, validation-based classifica
 
 ```text
 ndehigampala97.github.io/
+│
 ├── README.md
-├── Breast_Cancer_Classification.ipynb
-├── Breast_Cancer_Classification.html
+│
+├── data/
+│   └── wdbc.data
+│
+├── notebooks/
+│   └── Breast_Cancer_Classification.ipynb
+│
 └── figures/
     ├── model_comparison.png
     ├── roc_curves.png
-    └── feature_importance.png
+    ├── feature_importance.png
+    └── confusion_matrices.png
 ```
 
-*This is the recommended structure; include only files that you have actually uploaded. If your notebook is inside a `notebooks/` folder, update the paths accordingly.*
+**Repository organization:**
+- **README.md:** Project overview, methodology, results, and conclusions.
+- **data/:** Wisconsin Diagnostic Breast Cancer dataset used for model training and evaluation.
+- **notebooks/:** Complete Jupyter notebook containing data preprocessing, exploratory data analysis, machine learning models, and performance evaluation.
+- **figures/:** Visualizations of model performance, ROC curves, feature importance, and confusion matrices.
+```
 
 **Full analysis:** [View Jupyter Notebook](https://github.com/ndehigampala97/ndehigampala97.github.io/blob/main/notebooks/Breast_Cancer_Classification.ipynb)
 
