@@ -76,14 +76,13 @@ Metrics: accuracy, precision, recall (sensitivity for malignant cases), F1-score
 
 ### 5.4 Classification Errors
 
-| Model | True negatives | False positives | False negatives | True positives |
-|---|---:|---:|---:|---:|
-| Logistic Regression | 71 | 1 | 3 | 39 |
-| Random Forest | 72 | 0 | 3 | 39 |
-| Gradient Boosting | 72 | 0 | 4 | 38 |
-| XGBoost | 72 | 0 | 4 | 38 |
+The confusion matrices below illustrate the classification performance of all four machine learning models on the test dataset.
 
-False negatives represent malignant samples incorrectly predicted to be benign. This makes **malignant recall** especially important when interpreting results, alongside the other metrics.
+![Confusion Matrices](figures/confusion_matrices.png)
+
+**Random Forest** correctly classified all 72 benign samples and 39 of the 42 malignant samples, achieving the highest overall test accuracy (97.37%).
+
+All four models produced false negatives, where malignant tumors were incorrectly classified as benign. Therefore, **malignant recall is particularly important** when evaluating model performance, alongside accuracy and other metrics.
 
 ### 5.5 Feature Importance
 
