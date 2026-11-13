@@ -124,7 +124,7 @@ ndehigampala97.github.io/
 
 *This is the recommended structure; include only files that you have actually uploaded. If your notebook is inside a `notebooks/` folder, update the paths accordingly.*
 
-**Full analysis:** [Jupyter notebook](Breast_Cancer_Classification.ipynb) | [Rendered HTML report](Breast_Cancer_Classification.html)
+**Full analysis:** [View Jupyter Notebook](https://github.com/ndehigampala97/ndehigampala97.github.io/blob/main/notebooks/Breast_Cancer_Classification.ipynb)
 
 ## 8. Reproducing the Analysis
 
