@@ -134,21 +134,37 @@ ndehigampala97.github.io/
 - **data/:** Wisconsin Diagnostic Breast Cancer dataset used for model training and evaluation.
 - **notebooks/:** Complete Jupyter notebook containing data preprocessing, exploratory data analysis, machine learning models, and performance evaluation.
 - **figures/:** Visualizations of model performance, ROC curves, feature importance, and confusion matrices.
-```
 
-**Full analysis:** [View Jupyter Notebook](https://github.com/ndehigampala97/ndehigampala97.github.io/blob/main/notebooks/Breast_Cancer_Classification.ipynb)
+  **Full analysis:** [View Jupyter Notebook](https://github.com/ndehigampala97/ndehigampala97.github.io/blob/main/notebooks/Breast_Cancer_Classification.ipynb)
 
 ## 8. Reproducing the Analysis
 
-1. Download the dataset file `wdbc.data` from the UCI source above.
-2. Place the data file alongside `Breast_Cancer_Classification.ipynb`, or update the data path in the notebook.
-3. Install the required Python packages: `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, and `xgboost`, along with Jupyter.
-4. Run all notebook cells in order to reproduce the analysis and figures.
+To reproduce the breast cancer classification analysis, follow these steps:
 
-```bash
-python -m pip install numpy pandas matplotlib seaborn scikit-learn xgboost notebook
-jupyter notebook Breast_Cancer_Classification.ipynb
-```
+1. Clone the GitHub repository:
+
+   ```bash
+   git clone https://github.com/ndehigampala97/ndehigampala97.github.io.git
+   cd ndehigampala97.github.io
+   ```
+
+2. The Wisconsin Diagnostic Breast Cancer dataset (`wdbc.data`) is available in the `data/` folder. The notebook is located in the `notebooks/` folder.
+
+3. Install the required Python packages:
+
+   ```bash
+   python -m pip install numpy pandas matplotlib seaborn scikit-learn xgboost notebook
+   ```
+
+4. Launch Jupyter Notebook:
+
+   ```bash
+   jupyter notebook notebooks/Breast_Cancer_Classification.ipynb
+   ```
+
+5. Run all notebook cells in order to reproduce the data preprocessing, exploratory data analysis, model training, evaluation, and visualizations.
+
+**Note:** The notebook loads the dataset using the relative path `../data/wdbc.data`, so the original repository folder structure should be maintained when reproducing the analysis.
 
 ## 9. References
 
